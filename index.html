@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Download</title>
     <script src="main.js" defer></script>
-
+    <style>
+        *{
+            outline: none;
+            border: none;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+        }
+        input{
+            height: 25px;
+            width: 300px;
+            padding-left: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(64, 242, 132, 0.804);
+        }
+        button{
+            margin-top: 20px;
+            background-color: rgba(64, 242, 132, 0.804);
+            border-radius: 5px;
+            padding: 5px 8px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" id="Input">
-    <button id="Btn">Download File</button>
+    <div class="body">
+        <div>
+            <input type="text" id="Input" placeholder="Enter URL"><br>
+            <button id="Btn">Download File</button>
+        </div>
+    </div>
+    <p>© Anas Hamo</p>
 </body>
 </html>
